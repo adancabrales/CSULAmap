@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hirawrstudios.www.csulacampustour"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+  <supports-screens android:resizeable="true"
+                  android:smallScreens="true" 
+                  android:normalScreens="true" 
+                  android:largeScreens="true" 
+                      />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cal_state_la"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.csulacampustour.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.csulacampustour.CampusMapView"></activity>
+        <activity android:name="com.example.csulacampustour.EngineeringBuilding"></activity>
+        <activity android:name="com.example.csulacampustour.LuckManBuilding"></activity>
+        <activity android:name="com.example.csulacampustour.BookStore"></activity>
+        <activity android:name="com.example.csulacampustour.AdministrationBuildings"></activity>
+        <activity android:name="com.example.csulacampustour.SimpsonHall"></activity>
+        <activity android:name="com.example.csulacampustour.KingHall"></activity>
+        <activity android:name="com.example.csulacampustour.Library"></activity>
+        <activity android:name="com.example.csulacampustour.PhysicalSciences"></activity>
+        <activity android:name="com.example.csulacampustour.BiologicalSciences"></activity>
+        <activity android:name="com.example.csulacampustour.LaKretzHall"></activity>
+    </application>
+
+</manifest>

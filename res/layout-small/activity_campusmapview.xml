@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/campusmap4"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/bluecircle" />
+
+          <Button
+              android:id="@+id/buttonPhysicalSciences"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="35dp"
+              android:layout_height="35dp"
+              android:layout_below="@+id/buttonAdministration"
+              android:layout_toLeftOf="@+id/buttonBiologicalSciences"
+              android:background="@android:color/transparent"
+              android:onClick="sendMessagePhysicalSciences"
+              android:visibility="visible" />
+
+          <Button
+              android:id="@+id/buttonEngineering"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_above="@+id/buttonPhysicalSciences"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="82dp"
+              android:background="@android:color/transparent"
+              android:onClick="sendMessageEngineeringBuilding"
+              android:visibility="visible" />
+
+          <Button
+              android:id="@+id/buttonAdministration"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"
+              android:background="@android:color/transparent"
+              android:onClick="sendMessageAdministrationBuildings"
+              android:visibility="visible" />
+
+          <Button
+              android:id="@+id/buttonBiologicalSciences"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="25dp"
+              android:layout_height="25dp"
+              android:layout_above="@+id/buttonLaKretzHall"
+              android:layout_toLeftOf="@+id/buttonAdministration"
+              android:background="@android:color/transparent"
+              android:onClick="sendMessageBiologicalSciences"
+              android:visibility="visible" />
+
+          <Button
+              android:id="@+id/buttonSimpsonHall"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_below="@+id/buttonLaKretzHall"
+              android:layout_toLeftOf="@+id/buttonAdministration"
+              android:background="@android:color/transparent"
+              android:onClick="sendMessageSimpsonHall"
+              android:visibility="visible" />
+
+          <Button
+              android:id="@+id/buttonLaKretzHall"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_alignLeft="@+id/buttonAdministration"
+              android:layout_below="@+id/buttonPhysicalSciences"
+              android:background="@android:color/transparent"
+              android:onClick="sendMessageLaKretzHall"
+              android:visibility="visible" />
+
+          <Button
+              android:id="@+id/buttonKingHall"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_alignBottom="@+id/buttonLibrary"
+              android:layout_alignLeft="@+id/buttonEngineering"
+              android:background="@android:color/transparent"
+              android:onClick="sendMessageKingHall"
+              android:visibility="visible" />
+
+          <Button
+              android:id="@+id/buttonLibrary"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="20dp"
+              android:layout_height="20dp"
+              android:layout_above="@+id/buttonEngineering"
+              android:layout_toRightOf="@+id/buttonLaKretzHall"
+              android:background="@android:color/transparent"
+              android:onClick="sendMessageLibraryBuilding"
+              android:visibility="visible" />
+
+          <Button
+              android:id="@+id/buttonLuckMan"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_above="@+id/buttonKingHall"
+              android:layout_alignLeft="@+id/buttonBiologicalSciences"
+              android:background="@android:color/transparent"
+              android:onClick="sendMessageLuckManBuilding"
+              android:visibility="visible" />
+
+          <Button
+              android:id="@+id/buttonBookStore"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_above="@+id/buttonAdministration"
+              android:layout_toRightOf="@+id/buttonBiologicalSciences"
+              android:background="@android:color/transparent"
+              android:onClick="sendMessageBookStore"
+              android:visibility="visible" />
+          
+</RelativeLayout>

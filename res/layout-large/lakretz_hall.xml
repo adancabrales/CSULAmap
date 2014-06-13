@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="La Kretz Hall"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFD700"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="162dp"
+        android:text="La Kretz Hall ~ A New Base for Scientific Discovery ~  La Kretz is a multidisciplinary facility featuring contemporary science laboratories, equipment and tools, providing an environment to match the excellence of the University’s academic programs."
+        android:textColor="#FFD700"
+        android:textSize="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:src="@drawable/lakretzhall" />
+
+</RelativeLayout>
